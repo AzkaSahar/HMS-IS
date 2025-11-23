@@ -5,7 +5,7 @@ import os
 from backend.db import get_connection, check_database_availability, create_database_backup, restore_from_backup
 from backend.logs import get_logs, log_action, cleanup_old_data
 from backend.data_protection import anonymize_all_patients, decrypt_data
-from ui.common import show_sidebar_navigation, show_dashboard_analytics
+from frontend.layout import show_sidebar_navigation, show_dashboard_analytics
 
 
 def render_admin_view(user):

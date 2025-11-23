@@ -2,10 +2,10 @@ import streamlit as st
 from backend.db import init_db, check_database_availability, create_database_backup
 from backend.auth import create_default_users, authenticate
 from backend.logs import log_action
-from ui.common import show_header, show_footer, show_gdpr_notice
-from ui.admin_view import render_admin_view
-from ui.doctor_view import render_doctor_view
-from ui.receptionist_view import render_receptionist_view
+from frontend.layout import show_header, show_footer, show_gdpr_notice
+from frontend.admin_view import render_admin_view
+from frontend.doctor_view import render_doctor_view
+from frontend.receptionist_view import render_receptionist_view
 
 
 # -------------------------

@@ -3,7 +3,7 @@ import pandas as pd
 
 from backend.db import get_connection
 from backend.logs import log_action
-from ui.common import show_sidebar_navigation, show_dashboard_analytics
+from frontend.layout import show_sidebar_navigation, show_dashboard_analytics
 
 
 def render_doctor_view(user):

@@ -5,7 +5,7 @@ from datetime import datetime
 from backend.db import get_connection
 from backend.logs import log_action
 from backend.data_protection import anonymize_name, anonymize_contact, encrypt_data
-from ui.common import show_sidebar_navigation, show_dashboard_analytics
+from frontend.layout import show_sidebar_navigation, show_dashboard_analytics
 
 
 def render_receptionist_view(user):
